@@ -3,9 +3,27 @@
   <head>
     <meta charset="UTF-8">
     <title>研究室所属調査</title>
+    <style>
+      /* Define styles for the table */
+      .survey-results {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      .survey-results th, .survey-results td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      .survey-results th {
+        background-color: #ddd;
+      }
+      .result-row:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+    </style>
   </head>
   <body>
-    <table class="survey-results" border="1" cellpadding="5" cellspacing="0">
+    <table class="survey-results">
       <thead>
         <tr>
           <th>第一希望</th>
@@ -18,25 +36,25 @@
       <tbody>
         <!-- Add your survey results data here -->
         <tr class="result-row">
-          <td class="result-item">う権</td>
-          <td class="result-item">あ研</td>
-          <td class="result-item">い研</td>
-          <td class="result-item">え権</td>
-          <td class="result-item">お権</td>
+          <td>う権</td>
+          <td>あ研</td>
+          <td>い研</td>
+          <td>え権</td>
+          <td>お権</td>
         </tr>
         <tr class="result-row">
-          <td class="result-item">え権</td>
-          <td class="result-item">い研</td>
-          <td class="result-item">あ研</td>
-          <td class="result-item">お権</td>
-          <td class="result-item">う権</td>
+          <td>え権</td>
+          <td>い研</td>
+          <td>あ研</td>
+          <td>お権</td>
+          <td>う権</td>
         </tr>
         <tr class="result-row">
-          <td class="result-item">あ研</td>
-          <td class="result-item">あ研</td>
-          <td class="result-item">う権</td>
-          <td class="result-item">い研</td>
-          <td class="result-item">え権</td>
+          <td>あ研</td>
+          <td>あ研</td>
+          <td>う権</td>
+          <td>い研</td>
+          <td>え権</td>
         </tr>
       </tbody>
     </table>
