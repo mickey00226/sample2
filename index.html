@@ -3,27 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>研究室所属調査</title>
-    <h1>研究室所属調査の結果</h1>
-    <style>
-      /* Define styles for the table */
-      .survey-results {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      .survey-results th, .survey-results td {
-        padding: 8px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-      }
-      .survey-results th {
-        background-color: #ddd;
-      }
-      .result-row:nth-child(even) {
-        background-color: #f2f2f2;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <h1>研究室所属調査の結果</h1>
     <table class="survey-results">
       <thead>
         <tr>
@@ -61,3 +44,20 @@
     </table>
   </body>
 </html>
+
+/* Define styles for the table */
+.survey-results {
+  border-collapse: collapse;
+  width: 100%;
+}
+.survey-results th, .survey-results td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.survey-results th {
+  background-color: #ddd;
+}
+.result-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
